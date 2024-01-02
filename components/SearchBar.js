@@ -21,7 +21,6 @@ export default function SearchBar({
   return (
     <form
       onSubmit={handleSubmit}
-      style={{ width: "400px" }}
       className="p-4 mb-4 border-b-2 border-gray-200 "
     >
       <div class="flex items-center mb-4">

@@ -17,7 +17,7 @@ export default function FilterableProductTable() {
   const [inStockOnly, setInStockOnly] = useState(false);
 
   return (
-    <div className="bg-gray-100 p-2">
+    <div className="bg-gray-100 p-2" style={{ width: "400px" }}>
       <SearchBar
         filterText={filterText}
         inStockOnly={inStockOnly}
