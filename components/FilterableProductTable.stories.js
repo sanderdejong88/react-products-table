@@ -18,7 +18,6 @@ export const Default = {
     await userEvent.click(btn);
 
     expect(await canvas.findByText("Spinach")).toBeInTheDocument();
-    expect(await canvas.findByTestId("product-row")).to;
     expect(await canvas.findAllByRole("row")).toHaveLength(3);
   },
 };
